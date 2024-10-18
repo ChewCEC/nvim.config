@@ -14,12 +14,10 @@ return {
                     return
                 end
 
-
+            -- Here can put some remaps
             end,
 
-
         })
-
 
     end
 }
