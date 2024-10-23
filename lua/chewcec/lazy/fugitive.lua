@@ -19,8 +19,8 @@ return {
                 local opts = {buffer = bufnr, remap = false}
 
                 -- Apply these remaps only in fugitive buffers
-                vim.keymap.set("n", "gu", "<cmd>diffget //2<CR>", opts)
-                vim.keymap.set("n", "gh", "<cmd>diffget //3<CR>", opts)
+                vim.keymap.set("n", "gu", "<cmd>diffget //2<cr>", opts)
+                vim.keymap.set("n", "gh", "<cmd>diffget //3<cr>", opts)
             end,
         })
     end
