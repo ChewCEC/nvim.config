@@ -47,5 +47,5 @@ return {
                 "eslint_d",
             },
         })
-    end,
+      end,
 }
