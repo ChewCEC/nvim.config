@@ -1,6 +1,7 @@
 require("chewcec.lazy_init")
 require("chewcec.remap")
 require("chewcec.set")
+require("lazy").setup({{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}})
 require('lualine').setup {
     options = {
         icons_enabled = true,
