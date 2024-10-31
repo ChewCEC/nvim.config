@@ -21,4 +21,4 @@ vim.g.mapleader = " "
 require("lazy").setup({
     spec = {{import = "chewcec.lazy"}, {import = "chewcec.lazy.lsp"}},
     change_detection = {notify = false}
-})  
+})
